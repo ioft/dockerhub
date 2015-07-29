@@ -1,1 +1,1 @@
-FROM armv7/armhf-ubuntu:13.10
+FROM armv7/armhf-ubuntu:14.04.2
