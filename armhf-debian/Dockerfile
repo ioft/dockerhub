@@ -1,1 +1,1 @@
-FROM armv7/armhf-debian
+FROM armv7/armhf-debian:jessie
