@@ -1,4 +1,4 @@
-FROM ioft/i386-ubuntu_core
+FROM ioft/i386-ubuntu_core:15.10
 RUN echo '#!/bin/sh' > /usr/sbin/policy-rc.d \
 && echo 'exit 101' >> /usr/sbin/policy-rc.d \
 && chmod +x /usr/sbin/policy-rc.d \
